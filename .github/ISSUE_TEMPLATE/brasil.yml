@@ -29,6 +29,16 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: email
+    attributes:
+      label: Seu email
+      description: Seu email
+      placeholder: "LadyKerr@github.com"
+    validations:
+      required: true
+
+
   - type: textarea
     id: about_you
     attributes:
