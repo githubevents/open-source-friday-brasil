@@ -1,0 +1,83 @@
+name: Convite Open Source Friday Brasil
+description: Preenche esse formulario para ser convidado para o Open Source Friday Brasil
+title: Open Source Friday Brasil - [PROJECT NAME] - [DD-MM-YYYY]
+labels: ["open-source-friday", "open-source", "twitch", "pending", "brazil"]
+assignees: ["pachicodes"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Formulário de Convite  Open Source Friday
+        #### :sparkles: Por favor, preencha as informações abaixo para ser convidada para o Open Source Friday. A live acontece semanalmente às 13h BRT no canal da Twitch do GitHub. ✨
+  - type: input
+    id: name
+    attributes:
+      label: Nome
+      description: Seu nome
+      placeholder: "Seu nome aqui"
+
+  - type: input
+    id: github_handle
+    attributes:
+      label: GitHub Handle
+      description: @ no Github
+      placeholder: "@pachicodes"
+
+  - type: textarea
+    id: about_you
+    attributes:
+      label: Nos conte sobre voce
+      description: Please share a bit about yourself and your background
+      placeholder: "Eu sou um dev que ..."
+
+  - type: input
+    id: project_name_1
+    attributes:
+      label: Nome do projeto
+      description: The name of the project you'd like to showcase and chat about
+      placeholder: "Projeto super legal"
+
+  - type: input
+    id: project_repo_1
+    attributes:
+      label:  Link do Repo
+      description: Repositório do projeto
+      placeholder: "github.com/repo-url"
+
+  - type: checkboxes
+    id: stream_date
+    attributes:
+      label: Stream Date
+      description: Did you schedule a date for your stream?
+      options:
+        - label: "Yes"
+        - label: "Not yet"
+
+  - type: input
+    id: dates_1
+    attributes:
+      label: Dates
+      description: what date did you schedule for Open Source Friday stream?
+      placeholder: MM-DD-YYYY
+
+  - type: input
+    id: social_twitter
+    attributes:
+      label: Twitter URL
+      description: Your Twitter profile
+      placeholder: "@itsthatladydev"
+
+  - type: input
+    id: social_linkedin
+    attributes:
+      label: LinkedIn URL
+      description: Your LinkedIn profile
+      placeholder: "linkedin.com/in/your-profile"
+
+  - type: textarea
+    id: more_info
+    attributes:
+      label: Additional Information
+      description: Please share any additional details you'd like us to know about your project
+      placeholder: "I'd like to talk about..."
