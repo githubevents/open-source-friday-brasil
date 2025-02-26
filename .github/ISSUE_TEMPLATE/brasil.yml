@@ -2,16 +2,15 @@ name: Pedido de Participação no Open Source Friday Brasil
 description: Preencha este formulário para solicitar participação no Open Source Friday Brasil.
 title: Open Source Friday Brasil - [NOME DO PROJETO] - [DD-MM-YYYY]
 labels: ["open-source-friday", "open-source", "twitch", "pending"]
-assignees: ["LadyKerr", "AndreaGriffiths11"]
+assignees: ["pachicodes"]
 
 body:
   - type: markdown
     attributes:
       value: |
-        ## Formulário de Convite para Convidadas do Open Source Friday Brasil
-        ✨ Por favor, preencha as informações abaixo para ser convidada para o Open Source Friday Brasil.
-        A live acontece semanalmente às 13h BRT no [canal da Twitch do GitHub](https://www.twitch.tv/github). ✨
-
+        ## Formulário de Convite Open Source Friday Brasil
+        ✨ Por favor, preencha as informações abaixo para participar do Open Source Friday Brasil.
+        A live acontece semanalmente às 13h BRT no [canal da Twitch do GitHub](https://www.twitch.tv/githubbrasil). ✨
   - type: input
     id: name
     attributes:
