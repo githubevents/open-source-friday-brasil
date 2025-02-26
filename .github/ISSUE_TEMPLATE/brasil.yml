@@ -1,6 +1,6 @@
 name: Pedido de Participação no Open Source Friday Brasil
 description: Preencha este formulário para solicitar participação no Open Source Friday Brasil.
-title: Open Source Friday Brasil - [NOME DO PROJETO] - [DD-MM-YYYY]
+title: Open Source Friday Brasil - [NOME DO PROJETO]
 labels: ["open-source-friday", "open-source", "twitch", "pending"]
 assignees: ["pachicodes"]
 
@@ -66,31 +66,12 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: stream_date
-    attributes:
-      label: Data da Live
-      description: Você já agendou uma data para sua live?
-      options:
-        - label: "Sim"
-        - label: "Ainda não"
-    validations:
-      required: true
-
-  - type: input
-    id: dates_1
-    attributes:
-      label: Data
-      description: Qual data você agendou para a live do Open Source Friday Brasil?
-      placeholder: DD-MM-YYYY
-    validations:
-      required: false
 
   - type: input
     id: social_twitter
     attributes:
-      label: URL do Twitter
-      description: Seu perfil no Twitter
+      label: URL sociais
+      description: Seu perfil no Twitter, BlueSky ou Instagram
       placeholder: "@itsthatladydev"
     validations:
       required: false
