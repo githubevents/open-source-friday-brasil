@@ -1,83 +1,83 @@
-name: Convite Open Source Friday Brasil
-description: Preenche esse formulario para ser convidado para o Open Source Friday Brasil
-title: Open Source Friday Brasil - [PROJECT NAME] - [DD-MM-YYYY]
-labels: ["open-source-friday", "open-source", "twitch", "pending", "brazil"]
-assignees: ["pachicodes"]
+name: Pedido de Participação no Open Source Friday Brasil
+description: Preencha este formulário para solicitar participação no Open Source Friday Brasil
+title: Open Source Friday - [NOME DO PROJETO] - [DD-MM-YYYY]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Formulário de Convite  Open Source Friday
-        #### :sparkles: Por favor, preencha as informações abaixo para ser convidada para o Open Source Friday. A live acontece semanalmente às 13h BRT no canal da Twitch do GitHub. ✨
-  - type: input
-    id: name
-    attributes:
-      label: Nome
-      description: Seu nome
-      placeholder: "Seu nome aqui"
 
-  - type: input
-    id: github_handle
-    attributes:
-      label: GitHub Handle
-      description: @ no Github
-      placeholder: "@pachicodes"
+type: markdown
+attributes:
+value: |
+## Formulário de Convite para Open Source Friday
+#### ✨ Por favor, preencha as informações abaixo para participar do Open Source Friday. A live acontece semanalmente às 13h BRT no canal da Twitch do GitHub. ✨
 
-  - type: textarea
-    id: about_you
-    attributes:
-      label: Nos conte sobre voce
-      description: Please share a bit about yourself and your background
-      placeholder: "Eu sou um dev que ..."
+type: input
+id: name
+attributes:
+label: Nome
+description: Seu nome
+placeholder: "Kedasha Kerr"
 
-  - type: input
-    id: project_name_1
-    attributes:
-      label: Nome do projeto
-      description: The name of the project you'd like to showcase and chat about
-      placeholder: "Projeto super legal"
+type: input
+id: github_handle
+attributes:
+label: Usuário no GitHub
+description: Seu usuário no GitHub
+placeholder: "@LadyKerr"
 
-  - type: input
-    id: project_repo_1
-    attributes:
-      label:  Link do Repo
-      description: Repositório do projeto
-      placeholder: "github.com/repo-url"
+type: textarea
+id: about_you
+attributes:
+label: Conte-nos sobre você
+description: Compartilhe um pouco sobre você e sua trajetória
+placeholder: "Sou uma pessoa desenvolvedora que..."
 
-  - type: checkboxes
-    id: stream_date
-    attributes:
-      label: Stream Date
-      description: Did you schedule a date for your stream?
-      options:
-        - label: "Yes"
-        - label: "Not yet"
+type: input
+id: project_name_1
+attributes:
+label: Nome do Projeto
+description: Nome do projeto que você gostaria de apresentar e conversar sobre
+placeholder: "Projeto Incrível"
 
-  - type: input
-    id: dates_1
-    attributes:
-      label: Dates
-      description: what date did you schedule for Open Source Friday stream?
-      placeholder: MM-DD-YYYY
+type: input
+id: project_repo_1
+attributes:
+label: Link do Repositório
+description: O repositório do seu projeto no GitHub
+placeholder: "github.com/repo-url"
 
-  - type: input
-    id: social_twitter
-    attributes:
-      label: Twitter URL
-      description: Your Twitter profile
-      placeholder: "@itsthatladydev"
+type: checkboxes
+id: stream_date
+attributes:
+label: Data da Live
+description: Você já agendou uma data para sua live?
+options:
+- label: "Sim"
+- label: "Ainda não"
 
-  - type: input
-    id: social_linkedin
-    attributes:
-      label: LinkedIn URL
-      description: Your LinkedIn profile
-      placeholder: "linkedin.com/in/your-profile"
+type: input
+id: dates_1
+attributes:
+label: Data
+description: Qual data você agendou para a live do Open Source Friday Brasil?
+placeholder: MM-DD-YYYY
 
-  - type: textarea
-    id: more_info
-    attributes:
-      label: Additional Information
-      description: Please share any additional details you'd like us to know about your project
-      placeholder: "I'd like to talk about..."
+type: input
+id: social_twitter
+attributes:
+label: URL do Twitter
+description: Seu perfil no Twitter
+placeholder: "@itsthatladydev"
+
+type: input
+id: social_linkedin
+attributes:
+label: URL do LinkedIn
+description: Seu perfil no LinkedIn
+placeholder: "linkedin.com/in/seu-perfil"
+
+type: textarea
+id: more_info
+attributes:
+label: Informações Adicionais
+description: Compartilhe qualquer outro detalhe que gostaria que soubéssemos sobre seu projeto
+placeholder: "Gostaria de falar sobre..."
