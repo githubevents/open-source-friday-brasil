@@ -1,0 +1,84 @@
+name: Open Source Friday Guest Request
+description: Complete this form to request to be a guest on Open Source Friday
+title: Open Source Friday - [PROJECT NAME] - [MM-DD-YYYY]
+labels: ["open-source-friday", "open-source", "twitch", "pending"]
+assignees: ["LadyKerr", "AndreaGriffiths11"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Open Source Friday Guest Invite Form
+        #### :sparkles: Please fill out the following information to be invited to Open Source Friday. The stream occurs weekly at 1pm EST on the [GitHub Twitch Channel](https://www.twitch.tv/github). :sparkles:
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Your name
+      placeholder: "Kedasha Kerr"
+
+  - type: input
+    id: github_handle
+    attributes:
+      label: GitHub Handle
+      description: Your GitHub handle
+      placeholder: "@LadyKerr"
+
+  - type: textarea
+    id: about_you
+    attributes:
+      label: Tell us about yourself
+      description: Please share a bit about yourself and your background
+      placeholder: "I'm a developer who..."
+
+  - type: input
+    id: project_name_1
+    attributes:
+      label: Project Name
+      description: The name of the project you'd like to showcase and chat about
+      placeholder: "Awesome Project"
+
+  - type: input
+    id: project_repo_1
+    attributes:
+      label: Project Repo Link
+      description: The github repository of your project
+      placeholder: "github.com/repo-url"
+
+  - type: checkboxes
+    id: stream_date
+    attributes:
+      label: Stream Date
+      description: Did you schedule a date for your stream?
+      options:
+        - label: "Yes"
+        - label: "Not yet"
+
+  - type: input
+    id: dates_1
+    attributes:
+      label: Dates
+      description: what date did you schedule for Open Source Friday stream?
+      placeholder: MM-DD-YYYY
+
+  - type: input
+    id: social_twitter
+    attributes:
+      label: Twitter URL
+      description: Your Twitter profile
+      placeholder: "@itsthatladydev"
+
+  - type: input
+    id: social_linkedin
+    attributes:
+      label: LinkedIn URL
+      description: Your LinkedIn profile
+      placeholder: "linkedin.com/in/your-profile"
+
+  - type: textarea
+    id: more_info
+    attributes:
+      label: Additional Information
+      description: Please share any additional details you'd like us to know about your project
+      placeholder: "I'd like to talk about..."
