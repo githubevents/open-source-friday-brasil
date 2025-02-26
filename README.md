@@ -3,7 +3,7 @@
 ## Open Source Friday Brasil - Live Stream ✨
 _Toda sexta-feira às 13h horário de Brasilia_
 
-Junte-se a [Pachi Parra](https://www.instagram.com/pachicodes/) para o  Open Source Friday Brasil, onde entrevistamos pessoas mantenedoras do Brasil.
+Junte-se a [Pachi Parra](https://www.linkedin.com/in/pachicodes/)) para o  Open Source Friday Brasil, onde entrevistamos pessoas mantenedoras do Brasil.
 
 Quer participar? Comece conferindo nossos [critérios para projetos](https://github.com/pachicodes/open-source-friday-brasil/blob/main/admin/project-criteria.md) e, em seguida, [abra uma issue usando nosso modelo de convite](https://github.com/pachicodes/open-source-friday-brasil/issues/new?template=brasil.yml).
 
