@@ -14,6 +14,8 @@ Para garantir sua participação, siga estes passos:
    **"Open Source Friday Brasil - [Nome do Seu Projeto] - [DD-MM-AAAA]"**  
    Use nosso modelo de issue neste link: [📌 Criar issue](https://github.com/pachicodes/open-source-friday-brasil/issues/new?template=brasil.yml)
 
+   Convidar pra https://maintainers.github.com/ - mencionar OSFbr
+
 Após completar esses dois passos, enviaremos mais detalhes sobre a configuração da transmissão e o que esperar do evento.  
 
 Estou ansiosa para te receber no programa! 🚀  
