@@ -2,7 +2,7 @@
 
 Olá!  
 
-Muito obrigada por aceitar participar do **Open Source Friday Brasil**! Estamos animadas para que você compartilhe seu projeto com nossa comunidade.  
+Muito obrigada pelo interesse em participar do **Open Source Friday Brasil**! Estamos animadas para que você compartilhe seu projeto com nossa comunidade.  
 
 Sua sessão será transmitida **ao vivo** no **Twitch da GitHub Brasil** às **13h BRT** na sexta-feira agendada.  
 
