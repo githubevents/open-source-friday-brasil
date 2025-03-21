@@ -6,6 +6,7 @@ Obrigada por topar falar sobre seu projeto no **Open Source Friday Brasil**! Agr
 
 ## **📡 Sobre a Transmissão**  
 Todas as entrevistas são transmitidas **ao vivo** no [Twitch da GitHub Brasil](https://www.twitch.tv/githubbrasil) (usando **StreamYard**) e viram highlight no Twitch, tornando-se conteúdo compartilhável.  
+Entre no link 10 minutos antes para testarmos audio, voz e fazer o alinhamento do que esperar.
 
 
 ---
