@@ -1,0 +1,34 @@
+name: Event Prep
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add checklist comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueNumber = context.payload.issue.number;
+            const checklist = `
+            ### 🗓️ Checklist:
+              - [ ] Ask potential guests to fill out a GitHub issue on our repo.
+              - [ ] Check if potential guests match our requirements.
+              - [ ] If requirements are met, send our calendar link to schedule the stream.
+              - [ ] At the end of the month before the stream, create the event on meetup.com.
+              - [ ] In the week of the stream, double-check details with the guest.
+              - [ ] On the stream day, ask the guest if they have any questions.
+              - [ ] Share the stream link with the guest 1 hour before the stream and Ask the guest to join 10 minutes earlier to sync.
+              - [ ] Create a highlight video on Twitch.
+              - [ ] Thank the guest and invite them to the GitHub maintainer community.
+              - [ ] Write a post on social media the following week about the project, sharing the link to the recording.
+            `;
+            await github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: checklist
+            });
