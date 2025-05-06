@@ -20,6 +20,6 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: `Hi @pachicodes,\n\nThis stream has been scheduled. Please complete the following tasks:\n\n- [ ] Create social card\n- [ ] Create meetup link\n- [ ] Create and schedule tweets.`
+                body: `Hi @pachicodes,\n\nThis stream has been scheduled. Please complete the following tasks:\n\n- [ ] Create social card\n- [ ] Create meetup link\n- [ ] Create and schedule social posts.`
             };
             await github.rest.issues.createComment(issueComment);
