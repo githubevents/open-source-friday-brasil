@@ -15,10 +15,11 @@ O horário oficial de início é **13h BRT**. Por favor, tente entrar **10 a 15 
 
 ### **Perguntas**  
 
+- Como as pessoas podem contribuir para o seu projeto?  
+- Como as pessoas podem acompanhar o que está sendo desenvolvido e o roadmap pra saber o que e como podem ajudar?
 - Como pessoa mantenedora, quais desafios você já enfrentou?  
 - Qual foi a parte mais gratificante de manter um projeto open source?  
 - Como você acha que podemos melhorar a diversidade no open source?  
-- Como as pessoas podem contribuir para o seu projeto?  
 - Algum conselho para quem deseja atrair mais pessoas contribuidoras, patrocinadores ou usuárias para seus projetos open source?  
 - Alguma pergunta do público?  
 
